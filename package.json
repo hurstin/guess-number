@@ -1,11 +1,15 @@
 {
   "name": "number",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "script.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
